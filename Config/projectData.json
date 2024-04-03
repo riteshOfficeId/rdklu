@@ -1,0 +1,24 @@
+{
+  "Url": {
+    "BaseUrl": "https://www.rdklu.com/",
+    "DotdUrl": "https://www.rdklu.com/collections/deal-of-the-day?_pos=3&_psq=deal+of+the+day&_ss=e&_v=1.0"
+  },
+  "TestData": {
+    "ValidPassword": "123456",
+    "UserEmail": "riteshofficialid@gmail.com",
+    "InvalidPassword": "123"
+  },
+  "ShippingAddress": {
+    "UserEmail": "joker@gmail.com",
+    "FirstName": "Jr.",
+    "LastName": "Joker",
+    "Address": "Unnati nilay 5 Sirsi Road Kanakpura",
+    "City": "Jaipur",
+    "State": "RJ",
+    "PostalCode": "302012",
+    "ContactNumber": "9604884069"
+  },
+  "Browser": {
+    "BrowserName" :"chrome"
+  }
+}
