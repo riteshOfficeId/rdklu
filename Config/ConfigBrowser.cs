@@ -16,7 +16,9 @@ namespace TestProject
         {
             configData = new ConfigData();
             configuration = configData.GetConfigurationBuilder();
-            switch (configuration.GetSection("Browser")["BrowserName"])
+            string browserName = Environment.GetEnvironmentVariable("BROWSER_NAME");
+
+            switch (browserName)
             {
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
